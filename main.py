@@ -85,33 +85,3 @@ ax_big.legend(loc='upper left')
 fig.tight_layout()
 plt.title("Comparison between wining score and number of draws to win")
 plt.show()
-
-
-#
-# image = plt.imread('output/board/'+img_name_min)
-# ax_board_min.imshow(image)
-# ax2 = ax1.twinx()
-# ax1.plot(x, wining_draws, 'g-', label="Draws")
-# ax2.plot(x, scores, 'r-', label="Scores")
-#
-# ax1.set_xlabel('Boards')
-# ax1.set_ylabel('Wining Draws', color='g')
-# ax2.set_ylabel('Wining Scores', color='r')
-#
-# ax1.annotate('Board to win first ('+str(np.argmin(wining_draws)+1)+')',
-#              xy=(np.argmin(wining_draws)+1, np.min(wining_draws)),
-#              xytext=(np.argmin(wining_draws)+5, np.min(wining_draws)-5),
-#              arrowprops=dict(facecolor='black', shrink=0.01),
-#              )
-#
-# ax1.annotate('Board to win last ('+str(np.argmax(wining_draws)+1)+')',
-#              xy=(np.argmax(wining_draws)+1, np.max(wining_draws)),
-#              xytext=(np.argmax(wining_draws)+5, np.max(wining_draws)+5),
-#              arrowprops=dict(facecolor='black', shrink=0.01),
-#              )
-#
-# ax2.legend(loc='upper right')
-# ax1.legend(loc='upper left')
-#
-# plt.title("Comparison between wining score and number of draws to win")
-# plt.show()
